@@ -9,48 +9,51 @@
 <body>
     <div class="container">
         <div class="left-panel">
-            <div class="logo">
-                <img src="images/odin-logo.png">
-                <h1>ODIN</h1>
+            <div class="logo-box">
+                <img src="images/odin-logo.png" class="logo">
+                <h1 class="title">ODIN</h1>
+            </div>
+            <p class="ref">Photo by <a href="https://unsplash.com/@kerrtisy">Teryll KerrDouglas</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+        </div>
+        <div class="right-panel">
+            <div class="top-box">
+                <p class="text1">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+                <p class="text2">You know you want to.</p>
+            </div>
+            <div class="mid-box create-acc-form">
+                <p class="form-title">Let's do this!</p>
+                <form action="" method="post">
+                    <div>
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" name="first_name" id="first_name" required>
+                    </div>
+                    <div>
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" name="last_name" id="last_name" required>
+                    </div>
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="tel" name="phone_number" id="phone_number" required>
+                    </div>
+                    <div>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div>
+                        <label for="password_confirm">CONFIRM PASSWORD</label>
+                        <input type="password" name="password_confirm" id="password_confirm" required>
+                    </div>
+                </form>
+            </div>
+            <div class="bottom-box">
+                <button type="submit" class="create-acc-btn">Create Account</button>
+                <p class="log-in-text">Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
-        <div class="top-box">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
-            <p>You know you want to.</p>
-        </div>
-        <div class="mid-box create-acc-form">
-            <form action="" method="post">
-                <div>
-                    <label for="first_name">First Name</label>
-                    <input type="text" name="first_name" id="first_name">
-                </div>
-                <div>
-                    <label for="last_name">Last Name</label>
-                    <input type="text" name="last_name" id="last_name">
-                </div>
-                <div>
-                    <label for="email">EMAIL</label>
-                    <input type="text" name="email" id="email">
-                </div>
-                <div>
-                    <label for="phone_number">PHONE NUMBER</label>
-                    <input type="text" name="phone_number" id="phone_number">
-                </div>
-                <div>
-                    <label for="password">PASSWORD</label>
-                    <input type="text" name="password" id="password">
-                </div>
-                <div>
-                    <label for="password_confirm">CONFIRM PASSWORD</label>
-                    <input type="text" name="password_confirm" id="password_confirm">
-                </div>
-            </form>
-        </div>
-        <div class="bottom-box">
-            <button class="create-acc-btn">Create Account</button>
-            <p>Already have an account? <a>Log in</a></p>
-        </div>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
